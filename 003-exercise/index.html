@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>my form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <form action="mydata.php">
+      <fieldset>
+        <legend>required form</legend>
+        <fieldset>
+          <label for="firstname">Firstname:</label>
+          <br />
+          <input
+            name="firstname"
+            type="text"
+            id="firstname"
+            placeholder="Enter your first name"
+            required
+          />
+          <br />
+          <br />
+          <label for="lastname">Firstname:</label>
+          <br />
+          <input
+            name="lastname"
+            type="text"
+            id="lastname"
+            placeholder="Enter your first name"
+            required
+          />
+          <br />
+          <br />
+          <label for="date">Date of birth:</label>
+          <input
+            name="date"
+            type="date"
+            placeholder="your birthdaye"
+            required
+          />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Contact info:</legend>
+          <label for="phonenumber">Phone number:</label>
+          <br />
+          <input
+            type="number"
+            name="number"
+            id="phonenumber"
+            placeholder="Enter your phone number "
+            required
+          />
+          <br />
+          <br />
+          <label for="email">Email:</label>
+          <br />
+          <input
+            name="email"
+            type="eamil"
+            id="emial"
+            placeholder="your email"
+            required
+          />
+          <br />
+          <br />
+          <label for="address">Your address:</label>
+          <br />
+          <textarea
+            name="adress"
+            id="address"
+            placeholder="your address"
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <legend>Marital status:</legend>
+          <input type="radio" name="marital" id="marital" required />
+          <label for="marital">Single</label>
+          <input type="radio" name="marital" id="marital" required />
+          <label for="marital">Married</label>
+          <br />
+          <br />
+        </fieldset>
+        <fieldset>
+          <legend>Image Upload:</legend>
+          <label for="idimage">ID:</label>
+          <br />
+          <input type="file" name="idimage" id="idimage" required />
+          <br />
+          <br />
+          <label for="certificate">Certificate:</label>
+          <br />
+          <input type="file" name="certificate" id="certificate" required />
+        </fieldset>
+        <fieldset>
+          <legend>Your Chosen course:</legend>
+          <label for="courses">Choose your course:</label>
+          <br />
+          <select name="courses" id="courses" required>
+            <option value="choose" disabled selected>
+              choose your course!!
+            </option>
+            <optgroup label="IT field">
+              <option value="network">network</option>
+              <option value="programming">programming(front/back-end)</option>
+              <option value="ethical Hacking">Ethicla Hacking</option>
+              <option value="ccna">CCNA</option>
+            </optgroup>
+            <optgroup label="Engineering field">
+              <option value="network">Mechanical eng</option>
+              <option value="programming">Electrical eng</option>
+              <option value="ethical Hacking">Architectur eng</option>
+              <option value="Industrial eng">Industrial eng</option>
+            </optgroup>
+          </select>
+          <br />
+        </fieldset>
+      </fieldset>
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+
+    <script src="" async defer></script>
+  </body>
+</html>

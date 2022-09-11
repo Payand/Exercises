@@ -1,0 +1,67 @@
+
+
+body {
+    background-color: lightgray;
+}
+
+
+h1 {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    margin: 140px;
+    padding: 30px;
+
+}
+
+.profile-img {
+    margin-right: 15px;
+}
+
+
+
+.profile {
+    font-size:xx-large;
+    padding-bottom: 10px;
+}
+
+
+
+.introduction {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+.pr-font {
+    font-size: 18px;
+}
+
+.container-svg{
+    margin-left : 350px
+}
+
+
+.list-content {
+    margin-left: 190px;
+    margin-bottom: 50px;
+    margin-top: -180px;
+}
+
+.fix-contnet {
+    font-size: 18px;
+    margin-left: -25px;
+    margin-top: 180px;
+}
+
+
+.space-bet {
+    margin-right: 30px;
+}
+
+
+.flex-container-box {
+    text-align: center;
+}
+
